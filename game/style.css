@@ -1,0 +1,27 @@
+/* Velvet Rook — page chrome around the game canvas. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #070a12; }
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #e2e8f0;
+}
+.stage { text-align: center; padding: 12px; }
+#game {
+  display: block;
+  width: 1280px;
+  height: 800px;
+  max-width: 100vw;
+  max-height: calc(100vh - 46px);
+  background: #0d1220;
+  border: 2px solid #f2c14e;
+  border-radius: 6px;
+}
+.controls {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #94a3b8;
+}
